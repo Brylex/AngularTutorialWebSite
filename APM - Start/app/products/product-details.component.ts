@@ -18,7 +18,6 @@ export class ProductDetailsComponent implements OnInit {
 
     ngOnInit(): void {
         let id = +this._route.snapshot.params['id'];
-        this.pageTitle = `Product Details: ${id}`;
         this._productService.getProduct(id)
             .subscribe(
                 product => this.product = product,
@@ -29,4 +28,6 @@ export class ProductDetailsComponent implements OnInit {
     onBack(): void {
         this._router.navigate(['/products']);
     }
+
+    onRatingClicked(messgae: string) {}
 }
