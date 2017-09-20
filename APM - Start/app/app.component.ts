@@ -3,8 +3,7 @@ import { ProductService } from './products/product.service';
 
 @Component({
     selector: 'pm-app',
-    templateUrl: 'app/app.component.html',
-    providers: [ProductService]
+    templateUrl: 'app/app.component.html'
 })
 export class AppComponent {
     pageTitle: string = "Acme Product Managment"

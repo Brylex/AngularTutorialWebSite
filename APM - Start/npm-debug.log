@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'stop' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose node symlink c:\Program Files (x86)\nodejs\\node.exe
+5 verbose stack Error: missing script: stop
+5 verbose stack     at run (c:\Program Files (x86)\nodejs\node_modules\npm\lib\run-script.js:165:19)
+5 verbose stack     at c:\Program Files (x86)\nodejs\node_modules\npm\lib\run-script.js:81:5
+5 verbose stack     at c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:52:40
+5 verbose stack     at c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:376:33
+5 verbose stack     at checkBinReferences_ (c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:341:59)
+5 verbose stack     at final (c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:373:17)
+5 verbose stack     at then (c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:127:33)
+5 verbose stack     at c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:267:40
+5 verbose stack     at evalmachine.<anonymous>:334:14
+5 verbose stack     at c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:102:5
+6 verbose cwd E:\Workspace\Angular\Angular2-GettingStarted\APM - Start
+7 error Windows_NT 6.3.9600
+8 error argv "c:\\Program Files (x86)\\nodejs\\\\node.exe" "c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "stop"
+9 error node v0.12.2
+10 error npm  v2.7.4
+11 error missing script: stop
+12 error If you need help, you may report this error at:
+12 error     <https://github.com/npm/npm/issues>
+13 verbose exit [ 1, true ]
